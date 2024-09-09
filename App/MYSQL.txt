@@ -1,0 +1,5 @@
+CREATE DATABASE mi_libreria;
+
+CREATE USER 'usuario'@'localhost' IDENTIFIED BY 'contraseña';
+GRANT ALL PRIVILEGES ON mi_libreria.* TO 'usuario'@'localhost';
+FLUSH PRIVILEGES;
